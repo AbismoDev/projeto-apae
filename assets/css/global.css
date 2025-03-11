@@ -540,7 +540,6 @@
 
     .menu-mobile{
         box-shadow: 0 0 10px 1px #3A3A3A;
-        background-color: red !important;
         border-radius: 12px;
         position: absolute;
         margin-top: 20px;
@@ -589,7 +588,6 @@
 
     .dropmenu-mobile{
         height: auto !important;
-        border: 1px solid red;
     }
 
     .menu-mobile li img{
