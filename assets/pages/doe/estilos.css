@@ -1,0 +1,212 @@
+.secao-banner-pix{
+    background-image: url('../../img/images/img-banner-pages-pix.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    padding: 40px 0;
+    height: 400px;
+    display: flex;
+}
+
+.container-texto-banner-pix{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.container-texto-banner-pix h1{
+    font-family: "Dosis", serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 56px;
+    color: #fff;
+}
+
+.container-texto-banner-pix p{
+    font-family: "League Spartan", serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 31px;
+    color: #fff;
+}
+
+.secao-pix{
+    justify-content: center;
+    padding-top: 100px;
+    display: flex;
+}
+
+.secao-pix .container{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+
+.container-titulo-pix{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.container-titulo-pix div{
+    background-color: #FAEB4B;
+    border-radius: 9px;
+    height: 13px;
+    width: 46%;
+}
+
+.container-titulo-pix h2{
+    font-family: "Dosis", serif;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.container-info-pagamentos{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.container-pix{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.container-pix p{    
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.logo-pix,
+.container-bancario img{
+    width: 150px;
+}
+
+.separacao{
+    font-family: "Dosis", serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.container-bancario{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.container-tranferencia h3{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.container-tranferencia p{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.container-info-tranferencia{
+    flex-direction: column;
+    display: flex;
+}
+
+.container-info-tranferencia h4{
+    font-family: "Inter", serif;
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.container-info-tranferencia a{
+    font-family: "Inter", serif;
+    color: #3A3A3A;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.container-texto-pages{
+    text-align: center;
+}
+
+@media(max-width: 990px){
+    .container-texto-banner-pix h1{
+        font-size: 35px;
+    }
+    
+    .container-texto-banner-pix p{
+        font-size: 19px;
+    }    
+
+    .container-titulo-pix h2{
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .container-pix p{    
+        font-size: 12px;
+    }
+
+    .logo-pix,
+    .container-bancario img{
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .separacao{
+        font-size: 31px;
+    }
+
+    .container-bancario{
+        align-items: center;
+    }
+
+    .container-tranferencia,
+    .container-info-tranferencia{
+        text-align: center;
+    }
+
+    .container-tranferencia h3{
+        font-size: 23px;
+    }
+
+    .container-tranferencia p{
+        font-size: 17px;
+    }
+
+    .container-info-tranferencia h4{
+        font-size: 13px;
+    }
+
+    .container-info-tranferencia a{
+        font-size: 10px;
+    }    
+
+    .container-info-pagamentos{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 768px){        
+    .secao-banner-pix{
+        background-image: url('../../img/images/responsive-768px/img-banner-pages-pix-768.jpg');
+    }
+}
+
+@media(max-width: 395px){            
+    .secao-banner-pix{
+        background-image: url('../../img/images/responsive-395px/img-banner-pages-pix-395.jpg');
+    }
+}

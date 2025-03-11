@@ -1,0 +1,111 @@
+.secao-formulario{
+    justify-content: center;
+    padding-top: 60px;
+    display: flex;
+}
+
+.secao-formulario .container{
+    flex-direction: column;
+    display: flex;
+    gap: 60px;
+}
+
+.secao-formulario h3{
+    font-family: "League Spartan", serif;
+    color: #9696EB;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea{
+    font-family: "League Spartan", serif;
+    border: 2px solid #9696EB;
+    border-radius: 14px;
+    padding-left: 20px;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 36px;
+    height: 76px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+textarea:focus{
+    outline: none;
+}
+
+label{
+    font-family: "League Spartan", serif;
+    color: #3A3A3A;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.termos{
+    display: flex;
+    gap: 10px;
+}
+
+.termos input{
+    width: 30px;
+}
+
+.termos label{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+textarea{
+    padding-top: 20px;
+    height: 350px;
+    resize: none;
+}
+
+input[type=submit]{
+    background-color: #5AC837;
+    border: 2px solid #80F15B;
+    font-family: "Inter", serif;
+    border-radius: 22px;
+    max-width: 817px;
+    font-weight: 400;
+    font-size: 36px;
+    cursor: pointer;
+    height: 102px;
+    transition: .3s;
+    color: #fff;
+    width: 100%;
+}
+
+input[type=submit]:hover{
+    transform: scale(0.94);
+}
+
+@media(max-width: 768px){  
+    .secao-formulario h3{
+        font-size: 32px;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    textarea,
+    label,
+    .termos label,
+    input[type=submit]{
+        font-size: 24px;
+    }
+}
